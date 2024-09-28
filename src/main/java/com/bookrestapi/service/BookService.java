@@ -31,4 +31,9 @@ public class BookService {
         list.add(book);
          return book;
     }
+
+    public Book bookdelete(int id) {
+        Book y = list.remove(id);
+        return y;
+    }
 }
